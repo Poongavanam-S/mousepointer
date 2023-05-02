@@ -1,0 +1,74 @@
+<Html>  
+<head>
+<script>
+function formSubmit() {
+    document.forms["myForm"].submit();
+}
+</script>   
+<title>  
+Form Page  
+</title>  
+</head>
+<style>
+.myDiv {
+  border: 3px outset plum;
+  background-color: palegoldenrod;    
+  text-align: center;
+}
+</style>  
+<body bgcolor="lightblue">  
+<br>  
+<br>  
+<form><body align="center"> 
+<div class="myDiv">
+	<h1>UNIVERSITY OF MADRAS</h1>
+  <h2> STUDENT FORM</h2>
+  
+</div> 
+
+  <label1> Firstname </label1> 
+  <form name="myForm" action="/action_page.php" method="get">        
+<input type="text" name="firstname" size="15"/> <br>   
+<label2> Lastname </label2>         
+<input type="text" name="lastname" size="15"/> <br> 
+<label>   
+Course :  
+</label>   
+<select>  
+<option value="Course">Course</option>  
+<option value="BCA">BCA</option>  
+<option value="BBA">BBA</option>    
+<option value="MBA">MBA</option>  
+<option value="MCA">MCA</option>   
+</select>  
+  
+<br>  
+<br>  
+<label>Gender :  
+</label><br>  
+<input type="radio" name="male"/> Male <br>  
+<input type="radio" name="female"/> Female <br>  
+<input type="radio" name="other"/> Other  
+<br>  
+<br>  
+  <label>   
+Phone :  
+</label>  
+<input type="text" name="country code"  value="+91" size="2"/>   
+<input type="text" name="phone" size="10"/> <br> <br>  
+Address  
+<br>  
+<textarea cols="80" rows="5" value="address">  
+</textarea>  
+<br> <br>  
+Email:  
+<input type="email" id="email" name="email"/> <br>  
+Password:  
+<input type="Password" id="pass" name="pass"> <br>   
+<br> <br>   
+<input type="button" value="Submit"/> 
+
+</form>  
+</body>  
+</html>    
+<br> <br>     
